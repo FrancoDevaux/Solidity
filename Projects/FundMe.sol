@@ -38,7 +38,7 @@ contract FundMe{
     }
 
     modifier onlyOwner() {
-        // Custom error (en los requiere se hace eso)
+        // Custom error (en los require se hace eso)
         if(msg.sender != i_owner) {revert NotOwner();}
         _;
     }
