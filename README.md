@@ -6,3 +6,16 @@
  Todo esto lo hicimos en [Remix](https://remix.ethereum.org/).
  - Remix es una herramienta online que sirve para escribir, probar y desplegar contratos inteligentes en la blockchain de Ethereum.
     - Desplegar contratos inteligentes en *Solidity* (que es el lenguaje para programar en la blockchain de Ethereum).
+
+# Que aprendi?
+
+Con estos proyectos aprendí la mayoria de los conceptos básicos de **Solidity** como:
+  - special functions
+  - custom errors
+  - immutable variables
+  - constnats variables
+  - modifiers
+  - constructors
+  - arrays
+  - loops
+  - libraries
