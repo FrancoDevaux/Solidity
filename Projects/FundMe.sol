@@ -1,3 +1,4 @@
+```sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
@@ -52,3 +53,4 @@ contract FundMe{
         fund();
     }
 }
+```sol
