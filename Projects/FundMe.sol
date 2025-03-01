@@ -5,6 +5,7 @@ import {PriceConverter} from "./PriceConverter.sol";
 
 // Custom errors
 error NotOwner();
+//error CallFailed();
 
 contract FundMe{
     using PriceConverter for uint256;
