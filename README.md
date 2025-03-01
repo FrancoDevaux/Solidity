@@ -22,4 +22,5 @@ Con estos proyectos aprendí la mayoria de los conceptos básicos de **Solidity*
   - Libraries
   - etc ...
 
+Aprendía como **implementar esto en una red de prueba real**, simulando lo que es implementar en una red real con dinero real.
 Tambien aprendí formas de hacer nuestros contratos más eficientes en cuanto al consumo de gas.
