@@ -35,6 +35,10 @@ contract FundMe{
         //call ---> Podiamos haber usado transfer o send
         (bool success, ) = payable(msg.sender).call{value: address(this).balance}("");
         require(success, "Call failed");
+
+        /*if(!success){
+            revert CallFailed();
+        }*/
     }
 
     modifier onlyOwner() {
