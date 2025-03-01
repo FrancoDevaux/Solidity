@@ -10,6 +10,7 @@
 ## What have I learned ?
 
 Con estos proyectos aprendí la mayoria de los conceptos básicos de **Solidity** como:
+  - Inheritance
   - Special functions
   - Custom errors
   - Immutable variables
