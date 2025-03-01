@@ -10,12 +10,15 @@
 # Que aprendi?
 
 Con estos proyectos aprendí la mayoria de los conceptos básicos de **Solidity** como:
-  - special functions
-  - custom errors
-  - immutable variables
-  - constnats variables
-  - modifiers
-  - constructors
-  - arrays
-  - loops
-  - libraries
+  - Special functions
+  - Custom errors
+  - Immutable variables
+  - Constnats variables
+  - Modifiers
+  - Constructors
+  - Arrays
+  - Loops
+  - Libraries
+  - etc ...
+
+Tambien aprendí formas de hacer nuestros contratos más eficientes en cuanto al consumo de gas.
