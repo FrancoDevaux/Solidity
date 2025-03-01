@@ -11,7 +11,7 @@ library PriceConverter {
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
         (, int256 answer, , , ) = priceFeed.latestRoundData();
         
-        // ETH/USD rate in 18 digit
+        // ETH/USD rate in 18 digits
         return uint256(answer * 10000000000);
     }
 
