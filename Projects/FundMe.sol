@@ -32,7 +32,7 @@ contract FundMe{
         }
         funders = new address[](0);
 
-        //call
+        //call ---> Podiamos haber usado transfer o send
         (bool success, ) = payable(msg.sender).call{value: address(this).balance}("");
         require(success, "Call failed");
     }
@@ -42,7 +42,8 @@ contract FundMe{
         if(msg.sender != i_owner) {revert NotOwner();}
         _;
     }
-  
+
+    //si se envía Ether a un contrato sin una función "receive" o "fallback", la transacción será rechazada y el Ether no se transferirá
     receive() external payable {
         fund();
     }
